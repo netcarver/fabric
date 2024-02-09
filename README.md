@@ -119,28 +119,24 @@ Follow these steps to get the client installed and configured.
 1. Navigate to where you want the Fabric project to live on your systemClone the directory to a semi-permanent place on your computer.
 
 ```bash
-# Find a home for Fabric
 cd /where/you/keep/code
 ```
 
 2. Clone the project to your computer.
 
 ```bash
-# Clone Fabric to your computer
 git clone git@github.com:danielmiessler/fabric.git
 ```
 
 3. Enter Fabric's /client directory
 
 ```bash
-# Enter the project and its /client folder
 cd fabric/client
 ```
 
 4. Install the dependencies
 
 ```bash
-# Install the pre-requisites
 pip3 install -r requirements.txt
 ```
 
